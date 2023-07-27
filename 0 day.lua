@@ -22,3 +22,7 @@ end
 if coffee == 4 then
   Makecoffee(" 4 - Milk")
 end
+
+if not coffee == 1 and not coffee == 2 and not coffee == 3 and not coffee == 4 then 
+  Makecoffee("nothing")
+end
